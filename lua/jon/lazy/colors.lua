@@ -3,6 +3,7 @@ return {
   { "rebelot/kanagawa.nvim" },
   { "w0ng/vim-hybrid" },
   { "ribru17/bamboo.nvim" },
+  { "catppuccin/nvim" },
   -- { "neanias/everforest-nvim" },
   -- { "olivercederborg/poimandres.nvim" },
   -- { "slugbyte/lackluster.nvim" },
