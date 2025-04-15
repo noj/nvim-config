@@ -21,7 +21,7 @@ return {
         vim.keymap.set("n", "gr", "", {
           callback = require("telescope.builtin").lsp_references
         })
-        vim.keymap.set("n", "'", "", {
+        vim.keymap.set("n", "gs", "", {
           callback = require("telescope.builtin").lsp_dynamic_workspace_symbols
         })
         vim.keymap.set("n", "<C-i>", function() builtin.lsp_workspace_symbols("query=S") end, {})
