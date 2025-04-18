@@ -24,6 +24,9 @@ vim.keymap.set("n", "<leader>m", ":Neomake!<CR>")
 -- vim.keymap.set("n", "'", "", {
 --   callback = require("telescope.builtin").lsp_dynamic_workspace_symbols
 -- })
+vim.keymap.set('n', '<leader>td', function()
+  vim.diagnostic.enable(not vim.diagnostic.is_enabled())
+end, { silent = true, noremap = true })
 
 -- Quick current-word-under-cursor highlighting toggle
 vim.keymap.set("n", " ", "", {
