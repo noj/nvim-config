@@ -34,6 +34,13 @@ vim.opt.backspace = "indent,eol,start"
 
 vim.opt.wrap = false
 
+-- netrw
+vim.g.netrw_winsize = 30
+vim.g.netrw_banner = 0
+
+vim.cmd([[ nnoremap <leader>dd :Lexplore %:p:h<CR> ]])
+vim.cmd([[ nnoremap <Leader>da :Lexplore<CR>]])
+
 -- auto commands
 vim.cmd([[ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab ]])
 vim.cmd([[ autocmd FileType go setlocal ts=4 sts=4 sw=4 noexpandtab ]])

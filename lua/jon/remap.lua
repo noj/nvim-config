@@ -33,7 +33,7 @@ vim.keymap.set('n', '<leader>td', function()
   vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { silent = true, noremap = true })
 
--- Quick current-word-under-cursor highlighting toggle
+-- Quick current-word-under-cursor highlighting toggle, toggle via space bar
 vim.keymap.set("n", " ", "", {
   callback = function()
     local current_word = vim.call('expand','<cword>')
@@ -53,5 +53,5 @@ vim.keymap.set("n", " ", "", {
   end,
   noremap = true,
   silent = true,
-  desc = "Toggle highlighting of current word under cursor",
+  desc = "Toggle highlighting current word under cursor",
 })
