@@ -21,6 +21,8 @@ vim.keymap.set("n", "<leader>m", ":Neomake!<CR>")
 vim.keymap.set("n", "<leader>ft", ":NvimTreeToggle<CR>")
 
 vim.keymap.set("n", "<leader>A", ":ClangdSwitchSourceHeader<CR>")
+vim.keymap.set("n", "]g", vim.diagnostic.goto_next)
+vim.keymap.set("n", "[g", vim.diagnostic.goto_prev)
 
 -- LSP
 -- vim.keymap.set("n", "gr", "", {
