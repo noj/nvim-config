@@ -17,6 +17,11 @@ vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zz")
 -- Neomake
 vim.keymap.set("n", "<leader>m", ":Neomake!<CR>")
 
+-- nvim-tree
+vim.keymap.set("n", "<leader>ft", ":NvimTreeToggle<CR>")
+
+vim.keymap.set("n", "<leader>A", ":ClangdSwitchSourceHeader<CR>")
+
 -- LSP
 -- vim.keymap.set("n", "gr", "", {
 --   callback = require("telescope.builtin").lsp_references

@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("vesper")
 
 vim.opt.nu = true
 vim.opt.relativenumber = true
@@ -18,8 +18,6 @@ vim.opt.updatetime = 50
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
-
-vim.opt.colorcolumn = "80"
 
 vim.opt.cursorline = true
 

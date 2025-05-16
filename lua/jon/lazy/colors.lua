@@ -5,6 +5,7 @@ return {
   { "ribru17/bamboo.nvim" },
   { "catppuccin/nvim" },
   { "kvrohit/rasmus.nvim" },
+  { "datsfilipe/vesper.nvim" },
   -- { "neanias/everforest-nvim" },
   -- { "olivercederborg/poimandres.nvim" },
   -- { "slugbyte/lackluster.nvim" },
