@@ -29,6 +29,7 @@ return {
         "lua_ls",
         "rust_analyzer",
         "gopls",
+        "pyright",
       },
       handlers = {
         function(server_name) -- default handler (optional)
@@ -37,6 +38,7 @@ return {
           }
         end,
 
+        -- zig
         zls = function()
           local lspconfig = require("lspconfig")
           lspconfig.zls.setup({
@@ -51,8 +53,9 @@ return {
           })
           vim.g.zig_fmt_parse_errors = 0
           vim.g.zig_fmt_autosave = 0
-
         end,
+
+        -- lua
         ["lua_ls"] = function()
           local lspconfig = require("lspconfig")
           lspconfig.lua_ls.setup {
@@ -68,6 +71,7 @@ return {
           }
         end,
 
+        -- YAML
         ["yamlls"] = function()
           local lspconfig = require("lspconfig")
           lspconfig.yamlls.setup {

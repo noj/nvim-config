@@ -11,6 +11,8 @@ vim.opt.expandtab = true
 vim.opt.swapfile = false
 vim.opt.backup = false
 
+vim.opt.signcolumn = "yes:1"
+
 vim.opt.termguicolors = true
 
 vim.opt.updatetime = 50
