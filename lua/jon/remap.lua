@@ -18,7 +18,7 @@ vim.keymap.set("n", "<A-k>", "<cmd>cprev<CR>zz", { desc = "Quickfix prev" })
 vim.keymap.set("n", "<leader>m", ":make!<CR>", { desc = "Run make" })
 
 -- nvim-tree
-vim.keymap.set("n", "<leader>ft", ":NvimTreeToggle<CR>", { desc = "Toggle nvim tree" })
+vim.keymap.set("n", "<leader>tf", ":NvimTreeToggle<CR>", { desc = "Toggle nvim tree" })
 
 vim.keymap.set("n", "<leader>A", ":ClangdSwitchSourceHeader<CR>", { desc = "Toggle header/source files" })
 vim.keymap.set("n", "]g", vim.diagnostic.goto_next, { desc = "Goto next diagnostic" })
