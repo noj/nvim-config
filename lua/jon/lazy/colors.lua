@@ -6,6 +6,7 @@ return {
   { "catppuccin/nvim" },
   { "kvrohit/rasmus.nvim" },
   { "datsfilipe/vesper.nvim" },
+  { "noj/darkleaf.nvim" },
   -- { "neanias/everforest-nvim" },
   -- { "olivercederborg/poimandres.nvim" },
   -- { "slugbyte/lackluster.nvim" },

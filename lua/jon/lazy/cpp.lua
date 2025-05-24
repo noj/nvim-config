@@ -1,3 +1,3 @@
 return {
-    'bfrg/vim-c-cpp-modern'
+  'bfrg/vim-c-cpp-modern'
 }

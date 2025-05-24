@@ -45,10 +45,13 @@ vim.cmd([[ nnoremap <Leader>da :Lexplore<CR>]])
 vim.cmd([[ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab ]])
 vim.cmd([[ autocmd FileType go setlocal ts=4 sts=4 sw=4 noexpandtab ]])
 
+-- auto-format on save
+vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]
+
 vim.cmd([[ augroup quickfix
-    autocmd!
-    autocmd QuickFixCmdPost [^l]* cwindow
-    autocmd QuickFixCmdPost l* lwindow
+autocmd!
+autocmd QuickFixCmdPost [^l]* cwindow
+autocmd QuickFixCmdPost l* lwindow
 augroup END
 ]])
 

@@ -21,7 +21,7 @@ return {
     --        to the jumplist.
     --  false: Treewalker does not add to the jumplist at all
     --  "left": Treewalker only adds :Treewalker Left to the jumplist. This is usually the most
-        --          likely one to be confusing, so it has its own mode.
+    --          likely one to be confusing, so it has its own mode.
     jumplist = true,
   }
 }
